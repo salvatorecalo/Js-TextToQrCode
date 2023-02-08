@@ -14,7 +14,6 @@ export default function QrPage() {
                 SetShown(true)
                 document.getElementById("error").innerText = "";
                 document.getElementById("img").src = "https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=" + QrText;
-                console.log(document.getElementById("img").src)
             }
         }
 
