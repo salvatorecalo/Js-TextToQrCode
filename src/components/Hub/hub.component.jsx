@@ -5,7 +5,7 @@ function Hub() {
     return(
         <section 
             id="Hub"
-            className='mb-48 container mx-auto px-4'
+            className='mb-36 container mx-auto px-4'
             >
                 <Navbar />
                 <HubJumbo />

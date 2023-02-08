@@ -36,7 +36,7 @@ export default function ExampleCarousel() {
     }
 
     return (
-        <section id="Examples" className='mb-48 grid place-items-center container mx-auto px-4'>
+        <section id="Examples" className='mb-32 grid place-items-center container mx-auto px-4'>
             <hgroup className='relative'>
             <img src={particles2} alt="particles" className="absolute w-full left-0 top-[-20px] lg:top-[-10px]" />
             <h2 className="text-center font-bold text-3xl relative z-50">Aumenta l’efficienza della <span className="text-transparent  bg-clip-text bg-gradient-to-r from-emerald-300 via-emerald-400 to-emerald-500">tua comunicazione</span></h2>

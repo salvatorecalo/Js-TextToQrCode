@@ -35,6 +35,8 @@ export default function QrPage() {
             </div>
             <input type="text" id="text" className="border-2 rounded-lg text-xl my-8 py-2 px-4" placeholder="Enter your text..."/>
             <button onClick={generateQr} className="bg-emerald-500 hover:bg-emerald-600 py-2 px-6 text-white">Genera Qr</button>
+
+            <a href={`/`} className='mt-24 text-lg font-medium'>Torna alla home</a>
         </div>
     );
 }
