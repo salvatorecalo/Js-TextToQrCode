@@ -6,16 +6,13 @@ export default function QrPage() {
     const [shown, SetShown] = useState(false)
     function generateQr() {
             const element = ref.current;
-            element.style.display = "block";
             let QrText = document.getElementById("text").value;
             if (QrText.trim().length === 0) {
                 SetShown(false)
-                document.getElementById("error").innerHTML = "please enter some text!";
-                document.getElementById("img").style.display = "none";
+                document.getElementById("error").innerText = "please enter some text!";
             } else {
                 SetShown(true)
-                document.getElementById("img").style.display = "block";
-                document.getElementById("error").innerHTML = "";
+                document.getElementById("error").innerText = "";
                 document.getElementById("img").src = "https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=" + QrText;
                 console.log(document.getElementById("img").src)
             }

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Js-TextToQrCode Converter",
+  "name": "Js text to qr code converter",
   "icons": [
     {
       "src": "favicon.ico",
