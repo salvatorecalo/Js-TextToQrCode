@@ -2,7 +2,6 @@ import {useState} from 'react';
 
 
 export default function QrPage() {
-    const [src, setSrc] = useState("");
     const [value, SetValue] = useState("");
     const [shown, SetShown] = useState(false)
     const [text, SetText] = useState("")
@@ -14,10 +13,10 @@ export default function QrPage() {
             } else {
                 SetShown(true)
                 SetText("")
-                setSrc("https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=" + value)
             }
         }
 
+    const src = "https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=" + value
     return (
         <div className="flex flex-col justify-center items-center h-screen">
             <h1 className="text-4xl font-medium mb-4">Qr Code Generator</h1>
