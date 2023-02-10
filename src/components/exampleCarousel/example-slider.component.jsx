@@ -43,7 +43,7 @@ export default function ExampleCarousel() {
             </hgroup>
 
             <div className="flex flex-col md:flex-row lg:flex-row justify-center mt-16 mx-0 px-0 md:mx-16 md:px-32">
-                <ul className='mr-8 flex flex-row md:flex-col lg:flex-col text-sm w-full'>
+                <ul className='mr-8 flex flex-col text-sm w-full order-last md:order-first lg:order-first'>
                     <li className={linkActive === 0 ? 'p-4 text-center bg-emerald-500 text-white' : 'p-4 text-center'}>
                         <button onClick={() => { ChangeActiveLink(0) }}>
                             Ristoranti
