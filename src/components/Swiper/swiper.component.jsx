@@ -45,19 +45,7 @@ export default function SwiperList() {
       }}
     >
       <SwiperSlide>
-        <FeedbackCard />
-      </SwiperSlide>
-      <SwiperSlide>
-        <FeedbackCard />
-      </SwiperSlide>
-      <SwiperSlide>
-        <FeedbackCard />
-      </SwiperSlide>
-      <SwiperSlide>
-        <FeedbackCard />
-      </SwiperSlide>
-      <SwiperSlide>
-        <FeedbackCard />
+        <FeedbackCard msg={"Prodotto utilissimo, lo utilizziamo in quasi tutti i nostri volantini, dalle norme covid fino a quelli per i nostri settori scolastici"} />
       </SwiperSlide>
     </Swiper>
   );
