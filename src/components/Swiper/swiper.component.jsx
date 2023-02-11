@@ -26,17 +26,21 @@ export default function SwiperList() {
       slidesPerView={1}
       spaceBetween={10}
       breakpoints={{
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 80,
+        576: {
+          slidesPerView: 1,
+          spaceBetween: 20,
         },
         768: {
-          slidesPerView: 3,
+          slidesPerView: 2,
           spaceBetween: 40,
         },
-        1024: {
+        992: {
+          slidesPerView: 3,
+          spaceBetween: 60,
+        },
+        1400: {
           slidesPerView: 4,
-          spaceBetween: 50,
+          spaceBetween: 80,
         },
       }}
     >
