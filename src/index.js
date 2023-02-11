@@ -8,6 +8,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import CreditsPage from './routes/credits';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/qr-generator",
     element: <QrPage />,
+  },
+  {
+    path: "/credits",
+    element: <CreditsPage />,
   },
 ]);
 
