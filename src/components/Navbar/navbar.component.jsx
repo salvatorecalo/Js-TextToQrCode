@@ -11,12 +11,12 @@
             <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
             <li>
                 <a href="#Examples" className='hover:btn-success'> 
-                    Examples
+                    Esempi
                 </a>
             </li>
             <li>
                 <a href="#Feedback" className='hover:btn-success'>
-                    Testimonials
+                    Feedback
                 </a>
             </li>
             </ul>
@@ -27,18 +27,18 @@
           <ul className="menu menu-horizontal px-1">
             <li>
                 <a href="#Examples" className='hover:btn-success'> 
-                    Examples
+                    Esempi
                 </a>
             </li>
             <li>
                 <a href="#Feedback" className='hover:btn-success'>
-                    Testimonials
+                    Feedback
                 </a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <PrimaryButton text="Start Now" link={`/qr-generator`} />
+          <PrimaryButton text="Inizia Ora" link={`/qr-generator`} />
         </div>
       </div>
     );
