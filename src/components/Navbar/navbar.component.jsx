@@ -10,12 +10,12 @@
             </label>
             <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
             <li>
-                <a href="#Examples"> 
+                <a href="#Examples" className='hover:btn-success'> 
                     Examples
                 </a>
             </li>
             <li>
-                <a href="#Feedback">
+                <a href="#Feedback" className='hover:btn-success'>
                     Testimonials
                 </a>
             </li>
@@ -26,12 +26,12 @@
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-                <a href="#Examples"> 
+                <a href="#Examples" className='hover:btn-success'> 
                     Examples
                 </a>
             </li>
             <li>
-                <a href="#Feedback">
+                <a href="#Feedback" className='hover:btn-success'>
                     Testimonials
                 </a>
             </li>
