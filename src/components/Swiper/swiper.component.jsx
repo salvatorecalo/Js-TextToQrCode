@@ -1,5 +1,6 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import trincheseLogo from '../../assets/trinchese-logo.jpg'
 
 // Import Swiper styles
 import "swiper/css";
@@ -26,26 +27,19 @@ export default function SwiperList() {
       slidesPerView={1}
       spaceBetween={10}
       breakpoints={{
-        576: {
+        640: {
+          width: 640,
           slidesPerView: 1,
-          spaceBetween: 20,
         },
+        // when window width is >= 768px
         768: {
+          width: 768,
           slidesPerView: 2,
-          spaceBetween: 40,
-        },
-        992: {
-          slidesPerView: 3,
-          spaceBetween: 60,
-        },
-        1400: {
-          slidesPerView: 4,
-          spaceBetween: 80,
         },
       }}
     >
       <SwiperSlide>
-        <FeedbackCard msg={"Prodotto utilissimo, lo utilizziamo in quasi tutti i nostri volantini, dalle norme covid fino a quelli per i nostri settori scolastici"} />
+        <FeedbackCard src={trincheseLogo} author="Thinchese Martano" authority="Istituto scolastico" msg={"Prodotto utilissimo, lo utilizziamo in quasi tutti i nostri volantini, dalle norme covid fino a quelli per i nostri settori scolastici"} />
       </SwiperSlide>
     </Swiper>
   );
