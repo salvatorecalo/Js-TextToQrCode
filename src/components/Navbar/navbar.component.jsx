@@ -23,7 +23,7 @@
           </div>
           <h1 className="normal-case text-xl tracking-wide">TextToQrCode</h1>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
                 <a href="#Examples" className='hover:btn-success'> 
@@ -36,9 +36,6 @@
                 </a>
             </li>
           </ul>
-        </div>
-        <div className="navbar-end">
-          <PrimaryButton text="Inizia Ora" link={`/qr-generator`} />
         </div>
       </div>
     );
