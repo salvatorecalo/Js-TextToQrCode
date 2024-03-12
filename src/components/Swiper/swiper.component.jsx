@@ -39,7 +39,7 @@ export default function SwiperList() {
       }}
     >
       <SwiperSlide>
-        <FeedbackCard src={trincheseLogo} author="Thinchese Martano" authority="Istituto scolastico" msg={"Prodotto utilissimo, lo utilizziamo in quasi tutti i nostri volantini, dalle norme covid fino a quelli per i nostri settori scolastici"} />
+        <FeedbackCard src={trincheseLogo} author="Trinchese Martano" authority="Istituto scolastico" msg={"Prodotto utilissimo, lo utilizziamo in quasi tutti i nostri volantini, dalle norme covid fino a quelli per i nostri settori scolastici"} />
       </SwiperSlide>
     </Swiper>
   );
